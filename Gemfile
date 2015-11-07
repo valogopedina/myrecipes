@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.2.1'
 
 gem 'rails', '4.2.4'
 
@@ -19,7 +20,7 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'sdoc', '~> 0.4.0',       group: :doc
 
-gem 'spring',       group:development
+gem 'spring',       group: :development
 
 
 group :development, :test do
@@ -27,7 +28,7 @@ group :development, :test do
   gem 'pry'
 end
 
-group : production do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
